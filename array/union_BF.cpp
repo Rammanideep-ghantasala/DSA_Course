@@ -26,6 +26,7 @@ vector<int>unionoftwosortedarrays(vector<int>a,vector<int>b){
             res.push_back(b[i]);
         }
     }
+sort(res.begin(),res.end());
 return res;
 }
 int main(){
